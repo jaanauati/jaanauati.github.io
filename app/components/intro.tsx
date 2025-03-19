@@ -3,9 +3,7 @@
 import { ReactTyped } from "react-typed";
 
 
-interface Props {}
-
-export default function Intro(props: Props) {
+export default function Intro() {
   return (
     <ReactTyped
       strings={[
