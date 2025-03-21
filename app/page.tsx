@@ -15,11 +15,11 @@ export default function Home() {
 	<main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
 	  <div className="flex align-center gap-10">
 	    <Image
-	      className="rounded-full z-1"
+	      className="rounded-full z-1 border-gradient"
 	      src="https://avatars.githubusercontent.com/u/433609?v=4"
 	      alt="Next.js logo"
 	      width={180}
-	      height={38}
+	      height={180}
 	      priority
 	    />
 	    <div className="flex flex-col justify-center w-[160px]" style={{ width: "160px"}}>
