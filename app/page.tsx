@@ -11,8 +11,9 @@ export default function Home() {
 	<div className={style.stars2} />
 	<div className={style.stars3} />
       </div>
-      <div className="text-white grid grid-rows-[20px_1fr_15px] items-center justify-items-center min-h-screen p-4 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-	<main className="flex flex-col justify-start gap-2 row-start-2 items-center sm:items-start">
+      <div className="h-dvh text-white grid grid-rows-[1fr_5fr_1fr] align-start justify-items-center min-h-dvh gap-5 pb-0 md:pb-20 font-[family-name:var(--font-geist-sans)]">
+	<nav />
+	<main className="grid grid-rows-[1fr_2fr] justify-items-center gap-10">
 	  <Image
 	    className="rounded-full z-1 border-gradient"
 	    src="https://avatars.githubusercontent.com/u/433609?v=4"
@@ -21,11 +22,11 @@ export default function Home() {
 	    height={180}
 	    priority
 	  />
-	  <div className="flex flex-col justify-center w-[160px] text-xl" style={{ width: "200px", height: 100 }}>
+	  <div className="flex flex-col self-start max-w-[12rem] text-xl">
 	    <Intro />
 	  </div>
 	</main>
-	<footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+	<footer className="flex gap-6 flex-wrap align-center justify-center self-end">
 	  <a
 	    className="flex items-center gap-2 hover:underline hover:underline-offset-4"
 	    href="https://www.linkedin.com/in/jonatan-anauati-997a0b44/"
