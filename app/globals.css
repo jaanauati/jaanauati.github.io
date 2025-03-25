@@ -7,7 +7,6 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --gradient-border: radial-gradient(circle, #ff4d00, #ff00cc);
 }
 
 
@@ -27,7 +26,7 @@ body {
 @layer utilities {
   .border-gradient {
     border: 7px solid;
-    background-image: var(--gradient-border);
+    background-image: radial-gradient(circle, var(--profile-gradient-one), var(--profile-gradient-two));
     border-image-slice: 1;
   }
 }

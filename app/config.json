@@ -1,0 +1,26 @@
+{
+  "profile" : {
+    "picture": "https://avatars.githubusercontent.com/u/433609?v=4",
+    "intro": {
+      "text": null,
+      "enableTyped": true,
+      "typedStrings": [
+	"Hello!, I am Jonatan,<br>Frontend Developer",
+	"Hello!, I am Jonatan,<br>Backend Developer",
+	"Hello!, I am Jonatan,<br>FullStack Developer<br>~<br>🪐<br>~<br>:q!"
+      ]
+    }
+  },
+  "social": {
+    "github": "https://github.com/jaanauati/",
+    "linkedin": "https://www.linkedin.com/in/jonatan-anauati-997a0b44/"
+  },
+  "seo": {
+    "title": "Jonatan Anauati",
+    "description": "Jonatan Anauati - Software Developer"
+  },
+  "layout": {
+    "background": "stars",
+    "profileGradientColors":["#ff4d00", "#ff00cc"]
+  }
+}
