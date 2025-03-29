@@ -48,6 +48,14 @@ export default function RootLayout({
 	  rel="stylesheet"
 	  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
 	/>
+	<script async src={`https://www.googletagmanager.com/gtag/js?id=${config.seo.googleAnalyticsID}`} />
+	<script dangerouslySetInnerHTML={{ __html: `
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', '${config.seo.googleAnalyticsID}');
+	`}} />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
